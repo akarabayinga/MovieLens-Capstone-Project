@@ -1753,7 +1753,7 @@ plot_g <- genre_effects %>%
     color = "black",
     show.legend = TRUE
   ) +
-  geom_label(aes(0.15, 2250),
+  geom_label(aes(0.15, 225),
     label = paste0("Median = ", round(median(genre_effects$g_effects), 4)),
     color = "grey50",
     fill = "white",
